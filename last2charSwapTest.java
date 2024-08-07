@@ -25,4 +25,8 @@ public class last2charSwapTest {
     public void chkwith10char(){
         assertEquals("ABCDFHTERF", ls.swap2char("ABCDFHTEFR"));
     }
+    @Test
+    public void chkwith5char(){
+        assertEquals("ABCFD", ls.swap2char("ABCDF"));
+    }
 }
