@@ -19,6 +19,9 @@ public class last2charSwap {
         return strWithoutLast2 + lastchar + secLastChar;
     }
 
+    public int[] hi(int[] a){
+        return a;
+    }
 
     public static void main(String args[]){
 

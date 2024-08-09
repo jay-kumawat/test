@@ -1,4 +1,5 @@
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertArrayEquals;
 
 import org.junit.*;
 
@@ -32,5 +33,10 @@ public class last2charSwapTest {
     @Test
     public void chkwith6char(){
         assertEquals("ABCFD", ls.swap2char("ABCDF"));
+    }
+
+    @Test
+    public void normalarraychk(){
+        assertArrayEquals(new int[] {1,2,3}, ls.hi(new int[] {1,2,3}));
     }
 }
